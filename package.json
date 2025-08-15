@@ -1,0 +1,14 @@
+{
+    "devDependencies": {
+        "autoprefixer": "^10.4.21",
+        "postcss": "^8.5.6",
+        "postcss-cli": "^11.0.1",
+        "sass": "^1.90.0"
+    },
+    "scripts": {
+        "build:sass": "sass src/styles/main.scss src/styles/main.css",
+        "build:postcss": "postcss src/styles/main.css -o src/styles/main.css",
+        "build": "npm run build:sass && npm run build:postcss",
+        "watch:sass": "sass --watch src/styles/main.scss src/styles/main.css"
+    }
+}
