@@ -13,7 +13,7 @@ A modular, beginner-friendly to-do list application built with vanilla JavaScrip
 
 # 🛠️ Tech Stack
 - JavaScript - dynamic UI logic and event handling.
-- SCSS - modular styliny.
+- SCSS - modular styling.
 - HTML - semantic structure for accessibility.
 - LocalStorage - client-side persistence for tasks and UI state.
 
